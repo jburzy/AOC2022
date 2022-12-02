@@ -23,7 +23,6 @@ def get_top_3_cal(input):
             tmp_cal = 0
         else:
             tmp_cal += int(val)
-    print(sorted(cal_totals)[-3:])
     return sum(sorted(cal_totals)[-3:])
 
 if __name__=="__main__":
